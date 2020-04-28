@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+body{
+background-color:#333;
+
+}
+
+.menu{
+position:fixed;
+background-color: #171717;
+width:100%;
+z-index: 999999;
+}
+ul {
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+
+}
+
+li {
+color: white;
+text-decoration: none;
+text-align: center;
+float:left;
+background-color: #171717;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 1.5em;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active {
+background-color: #171717;
+float:right;
+}
+.main_text{
+color:white;
+position: absolute;
+margin-top: 10%;
+margin-left: 30%;
+margin-right: 30%;
+padding:10px;
+text-align: center;
+
+animation:anim 3s;
+animation-duration:3s;
+}
+@keyframes anim {
+from {left:-100%;}
+to {left:0;}
+}
+.price{
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 20%;
+    margin-right:20%;
+    color:white;
+    width:60%;
+    border-collapse: collapse;
+    border: 1px solid #37B5A5;
+
+
+
+}
+.price_td_tr{
+border: 1px solid #37B5A5;
+padding: 12px 17px;
+
+}
+
+.pics{
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 24%;
+    margin-right:24%;
+    width:40%;
+}
+.description{
+color:white;
+width:100%;
+position: absolute;
+margin-top: 120%;
+margin-left: 5%;
+margin-right: 5%;
+text-align: center;
+
+}
+H2, H1, H3, H4, a {
+font-family: 'Comfortaa', cursive;
+
+font-weight: 400;
+margin-bottom: 16px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.games{
+background-color:#ff2400;
+width:100%;
+height:200px;
+position: absolute;
+margin-top: 145%;
+text-align: center;
+color:black;
+padding: 30px;
+}
+a.button8 {
+display: inline-block;
+color: white;
+font-weight: 700;
+text-decoration: none;
+user-select: none;
+padding: .5em 2em;
+outline: none;
+border: 2px solid;
+border-radius: 1px;
+transition: 0.2s;
+}
+a.button8:hover { background: rgba(255,255,255,.2); }
+a.button8:active { background: white; }
